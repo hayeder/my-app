@@ -1,0 +1,23 @@
+.notifications {
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.notifications h2 {
+    margin-top: 0;
+    color: #e74c3c;
+}
+
+.notification-item {
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.notification-item:hover {
+    background-color: #333;
+}

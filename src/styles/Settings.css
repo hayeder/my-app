@@ -1,0 +1,32 @@
+.settings {
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.settings h2 {
+    margin-top: 0;
+    color: #e74c3c;
+}
+
+.settings form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.settings form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings form label {
+    font-weight: bold;
+}
+
+.settings form input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #1c1c1c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand a {
+    color: #e74c3c;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-search input {
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #444;
+    transition: border-color 0.3s ease;
+}
+
+.navbar-search input:focus {
+    border-color: #e74c3c;
+}
+
+.navbar-profile a {
+    margin-left: 15px;
+    color: #f5f5f5;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+}
+
+.navbar-profile a:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
